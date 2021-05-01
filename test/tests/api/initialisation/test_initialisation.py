@@ -70,7 +70,7 @@ def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink
             log_level=logging.DEBUG,
             recreate_vocalink_db=True,
             cache_location=str(tmp_path),
-            vocalink_subsitution_version=version
+            vocalink_substitution_version=version
         )
 
 
