@@ -33,7 +33,7 @@ class GenerateUkBankAccount:
             log_level=logging.ERROR,
             cache_location=config.DEFAULT_VOCALINK_CACHE_LOCATION,
             vocalink_rules_version=config.DEFAULT_VOCALINK_VERSION_PATH,
-            vocalink_subsitution_version=config.DEFAULT_SORT_CODE_SUBSTITUTION_VERSION_PATH,
+            vocalink_substitution_version=config.DEFAULT_SORT_CODE_SUBSTITUTION_VERSION_PATH,
             recreate_vocalink_db=False,
             logger=init_logger()
     ):
@@ -42,11 +42,11 @@ class GenerateUkBankAccount:
         self._logger.setLevel(log_level)
         self._cache_location, self._db_file_path = _initialise_vocalink(
             logger=self._logger, cache_location=cache_location, version=vocalink_rules_version,
-            recreate=recreate_vocalink_db, sort_code_subs_version=vocalink_subsitution_version
+            recreate=recreate_vocalink_db, sort_code_subs_version=vocalink_substitution_version
         )
 
         self.VOCALINK_VERSION = vocalink_rules_version
-        self.VOCALINK_SUBSTITUTION_VERSION = vocalink_subsitution_version
+        self.VOCALINK_SUBSTITUTION_VERSION = vocalink_substitution_version
 
     def generate_for_sort_code(self, sort_code: str, total: int = 1) -> RandomBankAccount:
         return _RandomBankAccountGenerator(sort_code=sort_code, db_location=self._db_file_path) \

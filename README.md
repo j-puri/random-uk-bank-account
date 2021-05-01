@@ -90,8 +90,8 @@ GenerateUkBankAccount(log_level=logging.DEBUG).generate_for_sort_code(sort_code=
 ```
 ```
 STDOUT >>
-    2021-04-28 17:53:37,970 - random-bank-account - DEBUG - 4889/valacdos has been cached previously in /Users/jaspalpuri/.vocalink
-    2021-04-28 17:53:37,970 - random-bank-account - DEBUG - 1517/scsubtab has been cached previously in /Users/jaspalpuri/.vocalink
+    2021-04-28 17:53:37,970 - random-bank-account - DEBUG - 4889/valacdos has been cached previously in /Users/{USER}/.vocalink
+    2021-04-28 17:53:37,970 - random-bank-account - DEBUG - 1517/scsubtab has been cached previously in /Users/{USER}/.vocalink
     2021-04-28 17:53:37,971 - random-bank-account - DEBUG - Vocalink rules: {"rules": [{"sort_code_from": "040004", "sort_code_to": "040004", "algorithm": ["DBLAL", 10], "sort_code_pos_1": 0, "sort_code_pos_2": 0, "sort_code_pos_3": 0, "sort_code_pos_4": 0, "sort_code_pos_5": 0, "sort_code_pos_6": 0, "account_number_pos_1": 8, "account_number_pos_2": 7, "account_number_pos_3": 6, "account_number_pos_4": 5, "account_number_pos_5": 4, "account_number_pos_6": 3, "account_number_pos_7": 2, "account_number_pos_8": 1, "exception": "0"}]}
     2021-04-28 17:53:37,971 - random-bank-account - DEBUG - Vocalink sort code substitutions: {"original_sort_code": null, "substituted_sort_code": null}
     2021-04-28 17:53:37,972 - random-bank-account - DEBUG - Generating Bank Account for 040004. Seed array: [1, 6, 2, 6, 7, 7, 2, 1] 
@@ -129,7 +129,7 @@ GenerateUkBankAccount().VOCALINK_VERSION
 GenerateUkBankAccount().VOCALINK_SUBSTITUTION_VERSION
 ```
     
-The version can be overwitten via `vocalink_rules_version` and `vocalink_subsitution_version`. The values of which 
+The version can be overwitten via `vocalink_rules_version` and `vocalink_substitution_version`. The values of which 
 are taken from the Vocalink URLs shown in bold below.
 <pre>
 https://www.vocalink.com/media/<b>4941/valacdos</b>.txt
@@ -141,7 +141,7 @@ For example:
 GenerateUkBankAccount(
     recreate_vocalink_db=True, 
     vocalink_rules_version='4941/valacdos', 
-    vocalink_subsitution_version='1517/scsubtab'
+    vocalink_substitution_version='1517/scsubtab'
 )
 ```
 
