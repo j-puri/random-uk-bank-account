@@ -16,7 +16,7 @@ def get_requirements():
 setup(
     name='random-uk-bank-account',
     version=os.getenv("VERSION", "0.0.1"),
-    author='jaspal.puri',
+    author='j.puri',
     author_email='j-puri.github@outlook.com',
     packages=find_packages(exclude=["*test*"]),
     url='https://github.com/j-puri/random-uk-bank-account',
