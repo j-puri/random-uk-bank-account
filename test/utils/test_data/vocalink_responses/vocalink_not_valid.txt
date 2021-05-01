@@ -1,0 +1,812 @@
+
+<!doctype html>
+<html class="noJs" lang="en-GB">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- META -->
+            <meta name="theme-color" content="#141413">
+        <meta name="msapplication-TileColor" content="#141413">
+        <meta name="msapplication-TileImage" content="/media/3469/mc_icon_114.png">
+        <link rel="apple-touch-icon" href="/media/3467/mc_icon_57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/media/3468/mc_icon_72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/media/3469/mc_icon_114.png" />
+        <link rel="icon" type="image/png" sizes="57x57" href="/media/3467/mc_icon_57.png" />
+        <link rel="icon" type="image/png" sizes="72x72" href="/media/3468/mc_icon_72.png" />
+        <link rel="icon" type="image/png" sizes="114x114" href="/media/3469/mc_icon_114.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Vocalink">
+        <link href="/media/3485/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/media/3486/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/media/3487/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+        <link href="/media/3488/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+        <link href="/media/3489/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/media/3490/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+        <link href="/media/3481/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/media/3482/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/media/3484/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/media/3483/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <title>Error | Vocalink Mastercard</title>
+        <script type="text/javascript">
+            window.IsIOSWebAppCapable = true;
+        </script>
+
+    <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="format-detection" content="telephone=no">
+    <link rel="canonical" href="https://www.vocalink.com/error/" />
+
+    <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+        <link href="/css/LESSstyle.min.css?v=10" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="/scripts/slick/slick.css?v=11" />
+
+    <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace(/noJs/, "js")</script>
+    <script type="text/javascript" src="/scripts/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/scripts/global-components.min.js?v=11"></script>
+
+        <!-- OneTrust Cookies Consent Notice start -->
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="8b91e0d5-9be7-4088-835c-315a992eefd6"></script>
+    <script type="text/javascript">
+        function OptanonWrapper() {
+            var eOT = new Event('OneTrustGroupsUpdated');
+            document.dispatchEvent(eOT);
+        }
+        var di = {
+            pageName: "Error",
+            siteName: "Vocalink",
+            region: "EU",
+            country: "UK",
+            language: "en_gb"
+        };
+    </script>
+        <script src="//assets.adobedtm.com/launch-EN84d0f94b213c4e7488b694c6d2182e4c.min.js" type="text/plain" class="optanon-category-C006"></script>
+    <script src="//img.en25.com/i/elqCfg.min.js" type="text/plain" class="optanon-category-C010"></script>
+
+</head>
+<body>
+    
+
+<header class="site-header productGrid">
+    <div class="constrain">
+
+        <a href="/" class="site-header__image-button site-header__image-button--logo">
+            <object tabindex="-1" class="site-header__image-button--logo-img" data="/SiteAssets/MC/mc_logo.svg" alt="Home page for Vocalink, a Mastercard company"></object>
+        </a>
+
+        <div class="site-header__action-buttons__left">
+            
+            <button class="site-header__image-button site-header__image-button--icon site-header__expand-menu-button">
+                <img src="/SiteAssets/MC/menu.svg" alt="Expand navigation menu" />
+            </button>
+        </div>
+
+            <nav class="site-header__nav-links">
+                    <div class="site-header__nav-link">
+                            <a href="#nav__our-solutions" class="site-header__nav-link-text site-header__nav-link-text--sub-menu ">
+                                <span>
+                                    Our solutions
+                                </span>
+                            </a>
+    <div id="nav__our-solutions" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Payments &amp; processing
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/payment-processing/real-time-payments/" class="nav-links-column__link ">
+                                        Real-time payments
+                                    </a>
+                                    <a href="/payment-processing/bulk-payment-service/" class="nav-links-column__link ">
+                                        Batch payments
+                                    </a>
+                                    <a href="/payment-processing/bill-pay/" class="nav-links-column__link ">
+                                        Bill payments
+                                    </a>
+                                    <a href="/payment-processing/pay-by-account/" class="nav-links-column__link ">
+                                        Retail payments
+                                    </a>
+                                    <a href="/payment-processing/multi-proxy-service/" class="nav-links-column__link ">
+                                        Proxy look-up solution
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    UK connectivity
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/uk-connectivity/access-solutions/" class="nav-links-column__link ">
+                                        Connect to Faster Payments, Bacs and ICS
+                                    </a>
+                                    <a href="/uk-connectivity/card-transaction-services/" class="nav-links-column__link ">
+                                        Card transaction services
+                                    </a>
+                                    <a href="/uk-connectivity/request-to-pay-solution/" class="nav-links-column__link ">
+                                        Request to Pay solution
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Services
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/services/financial-crime-solutions/" class="nav-links-column__link ">
+                                        Financial crime solutions
+                                    </a>
+                                    <a href="/services/reporting-analytics-solutions/" class="nav-links-column__link ">
+                                        Reporting &amp; analytics
+                                    </a>
+                                    <a href="http://crossborder.mastercard.com" class="nav-links-column__link ">
+                                        Cross-border solutions
+                                    </a>
+                                    <a href="http://openbanking.mastercard.com" class="nav-links-column__link ">
+                                        Open banking solutions
+                                    </a>
+                            </nav>
+                        </section>
+            </div>
+        </div>
+    </div>
+                        
+                    </div>
+                    <div class="site-header__nav-link">
+                            <a href="#nav__news-insights" class="site-header__nav-link-text site-header__nav-link-text--sub-menu ">
+                                <span>
+                                    News &amp; insights
+                                </span>
+                            </a>
+    <div id="nav__news-insights" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/news-insights/stories/" class="nav-links-column__link ">
+                                        Stories
+                                    </a>
+                                    <a href="/news-insights/research-reports-white-papers/" class="nav-links-column__link ">
+                                        Research, reports &amp; white papers
+                                    </a>
+                                    <a href="/news-insights/newsroom/" class="nav-links-column__link ">
+                                        Newsroom
+                                    </a>
+                                    <a href="/news-insights/events/" class="nav-links-column__link ">
+                                        Events
+                                    </a>
+                                    <a href="/news-insights/case-studies/" class="nav-links-column__link ">
+                                        Case studies
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Featured topics
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="https://mastercardcontentexchange.com/perspectives/featured-topics/start-with-people-and-start-something-priceless/" class="nav-links-column__link ">
+                                        #startwithpeople
+                                    </a>
+                                    <a href="https://mastercardcontentexchange.com/perspectives/featured-topics/start-with-people-and-start-something-priceless/the-global-state-of-pay/" class="nav-links-column__link ">
+                                        #stateofpay
+                                    </a>
+                                    <a href="/news-insights/dependable-services/" class="nav-links-column__link ">
+                                        #dependableservices
+                                    </a>
+                            </nav>
+                        </section>
+            </div>
+        </div>
+    </div>
+                        
+                    </div>
+                    <div class="site-header__nav-link">
+                            <a href="#nav__customer-tools" class="site-header__nav-link-text site-header__nav-link-text--sub-menu ">
+                                <span>
+                                    Customer tools
+                                </span>
+                            </a>
+    <div id="nav__customer-tools" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/tools/customer-change-support/" class="nav-links-column__link ">
+                                        Customer Change Support
+                                    </a>
+                                    <a href="/tools/sort-code-checker/" class="nav-links-column__link ">
+                                        Sort code checker
+                                    </a>
+                                    <a href="/tools/extended-industry-sort-code-directory/" class="nav-links-column__link ">
+                                        Extended industry sort code directory
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/tools/modulus-checking/" class="nav-links-column__link ">
+                                        Modulus checking
+                                    </a>
+                                    <a href="/tools/direct-debit-originators-extract/" class="nav-links-column__link ">
+                                        Direct Debit originators extract
+                                    </a>
+                                    <a href="/tools/management-information/" class="nav-links-column__link ">
+                                        Management information
+                                    </a>
+                            </nav>
+                        </section>
+            </div>
+        </div>
+    </div>
+                        
+                    </div>
+                    <div class="site-header__nav-link">
+                            <a href="#nav__about" class="site-header__nav-link-text site-header__nav-link-text--sub-menu ">
+                                <span>
+                                    About
+                                </span>
+                            </a>
+    <div id="nav__about" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Company
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/about/about-vocalink/" class="nav-links-column__link ">
+                                        About us
+                                    </a>
+                                    <a href="/about/careers/" class="nav-links-column__link ">
+                                        Careers
+                                    </a>
+                                    <a href="/about/being-a-responsible-company/" class="nav-links-column__link ">
+                                        Being a responsible company
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Legal
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/about/privacy-policy/" class="nav-links-column__link ">
+                                        Privacy policy
+                                    </a>
+                            </nav>
+                        </section>
+                        <aside class="column nav-links__column nav-quote-column">
+                            <blockquote class="nav-quote-column__quote">
+                                Together, we&#39;re making payments safe, simple and smart
+                            </blockquote>
+
+                            <div class="nav-quote-column__links">
+                                    <a href="http://www.mastercard.com" class="nav-quote-column__link">
+                                        Visit the Mastercard website
+                                        
+                                    </a>
+                            </div>
+                        </aside>
+            </div>
+        </div>
+    </div>
+                        
+                    </div>
+                    <div class="site-header__nav-link">
+                            <a href="/contact-us/" target="" class="site-header__nav-link-text site-header__nav-link-text--direct ">
+                                <span>
+                                    Contact us
+                                </span>
+                            </a>
+                        
+                    </div>
+            </nav>
+
+        <div class="site-header__action-buttons">
+            <button class="site-header__image-button site-header__image-button--icon site-header-search-button" aria-label="Search" data-aria-label--closed="Close search">
+                <svg class="site-header-search-button__icon site-header-search-button__icon--search" viewBox="0 0 24 24" height="24" width="24">
+                    <path
+                        d="M9.08313717,0 C14.0996153,0 18.1662743,4.06665903 18.1662743,9.08313717 C18.1662743,11.3188782 17.3585133,13.3659564 16.0189107,14.9484527 L16.0189107,14.9484527 L24,22.929542 L22.929542,24 L14.9484527,16.0189107 C13.3659564,17.3585133 11.3188782,18.1662743 9.08313717,18.1662743 C4.06665903,18.1662743 0,14.0996153 0,9.08313717 C0,4.06665903 4.06665903,0 9.08313717,0 Z M9.08313717,1.51385619 C4.90273872,1.51385619 1.51385619,4.90273872 1.51385619,9.08313717 C1.51385619,13.2635356 4.90273872,16.6524181 9.08313717,16.6524181 C13.2635356,16.6524181 16.6524181,13.2635356 16.6524181,9.08313717 C16.6524181,4.90273872 13.2635356,1.51385619 9.08313717,1.51385619 Z"
+                    />
+                </svg>
+                <svg class="site-header-search-button__icon site-header-search-button__icon--close" viewBox="0 0 24 24" height="24" width="24">
+                    <path
+                        d="M 22.9381,0 24,1.06195 13.061,12 24,22.93805 22.9381,24 12,13.061 1.062,24 0,22.93805 10.939,12 0,1.06195 1.062,0 12,10.939 Z"
+                    />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="site-header__sub-menus">
+    <div id="nav__our-solutions" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Payments &amp; processing
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/payment-processing/real-time-payments/" class="nav-links-column__link ">
+                                        Real-time payments
+                                    </a>
+                                    <a href="/payment-processing/bulk-payment-service/" class="nav-links-column__link ">
+                                        Batch payments
+                                    </a>
+                                    <a href="/payment-processing/bill-pay/" class="nav-links-column__link ">
+                                        Bill payments
+                                    </a>
+                                    <a href="/payment-processing/pay-by-account/" class="nav-links-column__link ">
+                                        Retail payments
+                                    </a>
+                                    <a href="/payment-processing/multi-proxy-service/" class="nav-links-column__link ">
+                                        Proxy look-up solution
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    UK connectivity
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/uk-connectivity/access-solutions/" class="nav-links-column__link ">
+                                        Connect to Faster Payments, Bacs and ICS
+                                    </a>
+                                    <a href="/uk-connectivity/card-transaction-services/" class="nav-links-column__link ">
+                                        Card transaction services
+                                    </a>
+                                    <a href="/uk-connectivity/request-to-pay-solution/" class="nav-links-column__link ">
+                                        Request to Pay solution
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Services
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/services/financial-crime-solutions/" class="nav-links-column__link ">
+                                        Financial crime solutions
+                                    </a>
+                                    <a href="/services/reporting-analytics-solutions/" class="nav-links-column__link ">
+                                        Reporting &amp; analytics
+                                    </a>
+                                    <a href="http://crossborder.mastercard.com" class="nav-links-column__link ">
+                                        Cross-border solutions
+                                    </a>
+                                    <a href="http://openbanking.mastercard.com" class="nav-links-column__link ">
+                                        Open banking solutions
+                                    </a>
+                            </nav>
+                        </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav__news-insights" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/news-insights/stories/" class="nav-links-column__link ">
+                                        Stories
+                                    </a>
+                                    <a href="/news-insights/research-reports-white-papers/" class="nav-links-column__link ">
+                                        Research, reports &amp; white papers
+                                    </a>
+                                    <a href="/news-insights/newsroom/" class="nav-links-column__link ">
+                                        Newsroom
+                                    </a>
+                                    <a href="/news-insights/events/" class="nav-links-column__link ">
+                                        Events
+                                    </a>
+                                    <a href="/news-insights/case-studies/" class="nav-links-column__link ">
+                                        Case studies
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Featured topics
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="https://mastercardcontentexchange.com/perspectives/featured-topics/start-with-people-and-start-something-priceless/" class="nav-links-column__link ">
+                                        #startwithpeople
+                                    </a>
+                                    <a href="https://mastercardcontentexchange.com/perspectives/featured-topics/start-with-people-and-start-something-priceless/the-global-state-of-pay/" class="nav-links-column__link ">
+                                        #stateofpay
+                                    </a>
+                                    <a href="/news-insights/dependable-services/" class="nav-links-column__link ">
+                                        #dependableservices
+                                    </a>
+                            </nav>
+                        </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav__customer-tools" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/tools/customer-change-support/" class="nav-links-column__link ">
+                                        Customer Change Support
+                                    </a>
+                                    <a href="/tools/sort-code-checker/" class="nav-links-column__link ">
+                                        Sort code checker
+                                    </a>
+                                    <a href="/tools/extended-industry-sort-code-directory/" class="nav-links-column__link ">
+                                        Extended industry sort code directory
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/tools/modulus-checking/" class="nav-links-column__link ">
+                                        Modulus checking
+                                    </a>
+                                    <a href="/tools/direct-debit-originators-extract/" class="nav-links-column__link ">
+                                        Direct Debit originators extract
+                                    </a>
+                                    <a href="/tools/management-information/" class="nav-links-column__link ">
+                                        Management information
+                                    </a>
+                            </nav>
+                        </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav__about" class="nav-links site-header__nav-link-menu">
+        <div class="constrain">
+            <div class="row nav-links__columns-container">
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Company
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/about/about-vocalink/" class="nav-links-column__link ">
+                                        About us
+                                    </a>
+                                    <a href="/about/careers/" class="nav-links-column__link ">
+                                        Careers
+                                    </a>
+                                    <a href="/about/being-a-responsible-company/" class="nav-links-column__link ">
+                                        Being a responsible company
+                                    </a>
+                            </nav>
+                        </section>
+                        <section class="column nav-links__column nav-links-column">
+                                <div class="nav-links-column__heading">
+                                    Legal
+                                </div>
+
+                            <nav class="nav-links-column__links">
+                                    <a href="/about/privacy-policy/" class="nav-links-column__link ">
+                                        Privacy policy
+                                    </a>
+                            </nav>
+                        </section>
+                        <aside class="column nav-links__column nav-quote-column">
+                            <blockquote class="nav-quote-column__quote">
+                                Together, we&#39;re making payments safe, simple and smart
+                            </blockquote>
+
+                            <div class="nav-quote-column__links">
+                                    <a href="http://www.mastercard.com" class="nav-quote-column__link">
+                                        Visit the Mastercard website
+                                        
+                                    </a>
+                            </div>
+                        </aside>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+
+
+
+
+
+
+<div class="site-search productGrid">
+    <div class="constrain">
+        <div class="row">
+            <div class="column site-search__column">
+                <form method="get" action="/search-results" >
+                    <input type="search" name="query" class="site-search__search-box" placeholder="I'm looking for..." />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="constrain">
+        <div class="row">
+            <div class="column site-search__column">
+                <div class="site-search__popular-results">
+                    <div class="site-search__results-heading">Popular searches</div>
+                    <ul class="site-search__results">
+                            <li class="site-search__result">
+                                <a href="/payment-processing/real-time-payments/" class="site-search__result-link">real-time payments</a>
+                            </li>
+                            <li class="site-search__result">
+                                <a href="/about/about-vocalink/" class="site-search__result-link">about Vocalink</a>
+                            </li>
+                            <li class="site-search__result">
+                                <a href="/news-insights/stories/" class="site-search__result-link">stories</a>
+                            </li>
+                            <li class="site-search__result">
+                                <a href="/about/careers/" class="site-search__result-link">careers</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="site-search__search-results">
+                    <ul class="site-search__results">
+
+                    </ul>
+                    
+
+        <a class="link-with-arrow site-search__all-results" href="#" style="color:#ffffff;text-align:left">
+View all results    <svg xmlns="http://www.w3.org/2000/svg"
+         version="1.1"
+         viewBox="0 0 24 12"
+         height="12px"
+         width="24px">
+        <g style="fill:#ffffff;fill-rule:nonzero"
+           transform="translate(-8,-2)">
+            <path d="M 30.197537,7.5 26,2.7053671 26.747205,2 32,8 26.747205,14 26,13.294633 30.197537,8.5 H 8 v -1 z" />
+        </g>
+    </svg>
+
+        </a>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+
+
+
+
+<div class="productGrid instance" id="ProductGrid:0">
+        <div class="section " style="">
+
+        <div class="constrain">
+            <div class="row">
+                <div class="column">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section " style="">
+
+        <div class="constrain">
+            <div class="row">
+                <div class="column content push1/6">
+<div class="rteContent control">
+    
+
+<p><span class="typography__heading--h2"><img src="/media/4776/illustration_404_wide.png?width=475&amp;height=137" alt="" width="475" height="137" data-udi="umb://media/0f77697b6ce44091a4519898e00e801c"></span></p>
+<p><span class="typography__heading--h2">Sorry, we can't find that page</span></p>
+<p><span class="typography__paragraph--large" style="color: #323231;">You might have clicked an old link, or the page has been removed. If you can’t find what you’re looking for, please <a data-udi="umb://document/8b530df6583049b09527288e0f78f989" href="/contact-us/" title="Contact Us">contact us</a>.</span></p>
+<div class="mc-button-rte mc-button-rte--primary">
+    	<a class="MCButton MCButton__primary MCButton__primary__orange left-align" href="/">
+		<span class="originalText">Go to homepage</span>
+	</a>
+
+</div>
+
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section " style="">
+
+        <div class="constrain">
+            <div class="row">
+                <div class="column">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="breadcrumbs-container productGrid">
+    <div class="constrain">
+        <ul class="breadcrumbs">
+                        <li class="breadcrumbs__item breadcrumbs__item--with-arrow">
+                            <a class="breadcrumbs__link" href="/">Home</a>
+                        </li>
+                <li class="breadcrumbs__item">
+                    <span class="breadcrumbs__text breadcrumbs__text--active">Error</span>
+                </li>
+
+        </ul>
+    </div>
+</div>        <div id="footer" class="productGrid">
+            <div class="constrain">
+                <div class="mcIcon">
+                    <img class="footerMcLogo" src="/SiteAssets/MC/mc_logo.svg">
+                </div>
+
+                <div class="linkContainer">
+                        <div class="container linkGroup">
+                            <h2 class="linkGroupHeader">Payments &amp; processing</h2>
+                            <ul class="linkList">
+                                    <li><a class="footerLink" href="/payment-processing/real-time-payments/" title="Real-time payments">Real-time payments</a></li>
+                                    <li><a class="footerLink" href="/payment-processing/bulk-payment-service/" title="Batch payments">Batch payments</a></li>
+                                    <li><a class="footerLink" href="/payment-processing/bill-pay/" title="Bill payments">Bill payments</a></li>
+                                    <li><a class="footerLink" href="/payment-processing/pay-by-account/" title="Retail payments">Retail payments</a></li>
+                                    <li><a class="footerLink" href="/payment-processing/multi-proxy-service/" title="Proxy look-up solution">Proxy look-up solution</a></li>
+                            </ul>
+                        </div>
+                        <div class="container linkGroup">
+                            <h2 class="linkGroupHeader">UK connectivity</h2>
+                            <ul class="linkList">
+                                    <li><a class="footerLink" href="/uk-connectivity/access-solutions/" title="Connect to Faster Payments, Bacs &amp; ICS">Connect to Faster Payments, Bacs &amp; ICS</a></li>
+                                    <li><a class="footerLink" href="/uk-connectivity/card-transaction-services/" title="Card transaction services">Card transaction services</a></li>
+                                    <li><a class="footerLink" href="/uk-connectivity/request-to-pay-solution/" title="Request to Pay solution">Request to Pay solution</a></li>
+                            </ul>
+                        </div>
+                        <div class="container linkGroup">
+                            <h2 class="linkGroupHeader">Services</h2>
+                            <ul class="linkList">
+                                    <li><a class="footerLink" href="/services/financial-crime-solutions/" title="Financial crime solutions">Financial crime solutions</a></li>
+                                    <li><a class="footerLink" href="http://crossborder.mastercard.com" title="Cross-border solutions">Cross-border solutions</a></li>
+                                    <li><a class="footerLink" href="http://openbanking.mastercard.com" title="Open banking solutions">Open banking solutions</a></li>
+                            </ul>
+                        </div>
+                        <div class="container linkGroup">
+                            <h2 class="linkGroupHeader">News &amp; insights</h2>
+                            <ul class="linkList">
+                                    <li><a class="footerLink" href="/news-insights/stories/" title="Stories">Stories</a></li>
+                                    <li><a class="footerLink" href="/news-insights/research-reports-white-papers/" title="Research, reports &amp; white papers">Research, reports &amp; white papers</a></li>
+                                    <li><a class="footerLink" href="/news-insights/newsroom/" title="Newsroom">Newsroom</a></li>
+                                    <li><a class="footerLink" href="/news-insights/events/" title="Events">Events</a></li>
+                                    <li><a class="footerLink" href="/news-insights/case-studies/" title="Case studies">Case studies</a></li>
+                            </ul>
+                        </div>
+                        <div class="container linkGroup">
+                            <h2 class="linkGroupHeader">Customer tools</h2>
+                            <ul class="linkList">
+                                    <li><a class="footerLink" href="/tools/customer-change-support/" title="Customer Change Support">Customer Change Support</a></li>
+                                    <li><a class="footerLink" href="/tools/sort-code-checker/" title="Sort code checker">Sort code checker</a></li>
+                                    <li><a class="footerLink" href="/tools/extended-industry-sort-code-directory/" title="Extended industry sort code directory">Extended industry sort code directory</a></li>
+                                    <li><a class="footerLink" href="/tools/modulus-checking/" title="Modulus checking">Modulus checking</a></li>
+                                    <li><a class="footerLink" href="/tools/direct-debit-originators-extract/" title="Direct Debit originators extract">Direct Debit originators extract</a></li>
+                                    <li><a class="footerLink" href="/tools/management-information/" title="Management information">Management information</a></li>
+                            </ul>
+                        </div>
+                        <div class="container linkGroup">
+                            <h2 class="linkGroupHeader">About</h2>
+                            <ul class="linkList">
+                                    <li><a class="footerLink" href="/about/about-vocalink/" title="About us">About us</a></li>
+                                    <li><a class="footerLink" href="/about/careers/" title="Careers">Careers</a></li>
+                                    <li><a class="footerLink" href="/about/being-a-responsible-company/" title="Being a responsible company">Being a responsible company</a></li>
+                                    <li><a class="footerLink" href="/about/privacy-policy/" title="Privacy policy">Privacy policy</a></li>
+                                    <li><a class="footerLink" href="https://www.mastercard.co.uk/en-gb/vision/who-we-are/mastercard-modern-slavery-and-human-trafficking-statement.html" title="Modern slavery statement" target="_blank">Modern slavery statement</a></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="footerSideBar">
+                    <h2 class="sideBarHeader">Any questions?</h2>
+                    <p>Reach out and let us know what you're looking for.</p>
+                    	<a class="MCButton MCButton__textAndIcon MCButton__textAndIcon__white" href="/contact-us/">
+		<span class="originalText">Contact Us</span>
+	</a>
+
+                    <div class="mobileAddress">
+                        <h2 class="sideBarHeader">Head office</h2>
+                        <p>1 Angel Lane, London, EC4R 3AB</p>
+                    </div>
+                    <p>Follow us</p>
+                    <div class="socialMedia">
+                        <div class="circle">
+                            <a href="https://www.instagram.com/vocalink_mastercard/" title="Instagram" class="instagram">Instagram</a>
+                        </div>
+                        <div class="circle">
+                            <a href="https://twitter.com/VocaLink" title="Twitter" class="twitter">Twitter</a>
+                        </div>
+                        <div class="circle">
+                            <a href="https://www.linkedin.com/company/vocalink-a-mastercard-company/" title="LinkedIn" class="linkedIn">LinkedIn</a>
+                        </div>
+                        <div class="circle">
+                            <a href="https://www.youtube.com/channel/UCOVNORXApJ_EcgFlIBYdeTw" title="YouTube" class="youtube">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyrightNotice">
+                    <p>&#169; 2021 Mastercard</p>
+                </div>
+            </div>
+        </div>
+
+    <div id="overlay"></div>
+    <div id="viewState">
+        <div id="mobileView"> </div>
+        <div id="tabletView"> </div>
+        <div id="desktopView"> </div>
+    </div>
+    <script type="text/javascript">
+            var searchResultsJson = [{"Name":"Real-time payments","Link":"/payment-processing/real-time-payments/","Keywords":"instant payments, real-time payments, real time, managed, service, immediate, faster","Description":" ","Score":100},{"Name":"Multi-Proxy Service","Link":"/payment-processing/multi-proxy-service/","Keywords":"case study, fast, real time, real-time, mobile, proxy","Description":" ","Score":100},{"Name":"Consulting solutions","Link":"/services/consulting-solutions/","Keywords":"consulting services, reporting, analytics, mastercard advisors ","Description":" ","Score":100},{"Name":"Financial crime solutions","Link":"/services/financial-crime-solutions/","Keywords":"financial crime, money mules, MITS, real-time, AI, fraud, business, retail, account, name, verify, trace, prevent","Description":" ","Score":100},{"Name":"Extended industry sort code directory","Link":"/tools/extended-industry-sort-code-directory/","Keywords":"EISCD, sort codes, extended industry sort code directory","Description":" ","Score":100},{"Name":"Management information request","Link":"/tools/management-information/management-information-request/","Keywords":"Management Information Request","Description":"\r\n","Score":100},{"Name":"Newsroom","Link":"/news-insights/newsroom/","Keywords":"newsroom, news, press, media, media kit, press releases","Description":" ","Score":100},{"Name":"Democratising access to real-time payments with managed services","Link":"/news-insights/research-reports-white-papers/democratising-access-to-real-time-payments-with-managed-services/","Keywords":"managed services, real-time payments hub, latin america, asia pacific, ","Description":"As the pace of digital growth accelerates, demand for instant payments is increasing. Leveraging Mas","Score":100},{"Name":"Mastercard gender pay report 2018","Link":"/news-insights/research-reports-white-papers/mastercard-gender-pay-report-2018/","Keywords":"gender, pay, pay gap","Description":"In April 2017, the UK Government introduced a requirement that both public and large private sector ","Score":100},{"Name":"The importance of dependability in real-time payments","Link":"/news-insights/research-reports-white-papers/the-importance-of-dependability-in-real-time-payments/","Keywords":"managed services, real-time payments, dependability","Description":"As a leading global provider of real-time payment infrastructures and applications, we know that peo","Score":100},{"Name":"Request to Pay solution product paper","Link":"/news-insights/research-reports-white-papers/request-to-pay-solution-product-paper/","Keywords":"Request to Pay Solution, UK bill payments, Pay.UK","Description":"Mastercard Request to Pay solution allows enrolled participants to participate in Pay.UK\u0027s Request t","Score":100},{"Name":"Time to fix the broken link to digitise bill payments","Link":"/news-insights/research-reports-white-papers/time-to-fix-the-broken-link-to-digitise-bill-payments/","Keywords":"Time to fix the broken link between bill presentment and payment, bill payments, bill presentment","Description":" The process of paying bills has been trending toward electronic solutions for a while now, but the ","Score":100},{"Name":"The Different Times #2","Link":"/news-insights/research-reports-white-papers/the-different-times-2/","Keywords":"digital newspaper, The Different Times #2, news","Description":"\r\nThe way we live work and do business have been profoundly reshaped in the past few months. More of","Score":100},{"Name":"What people want in 2020/21","Link":"/news-insights/research-reports-white-papers/what-people-want-in-202021/","Keywords":"managed services, real-time payments, dependability","Description":"\r\nFor the past seven years, Vocalink, a Mastercard company, has conducted research into UK people’s ","Score":100},{"Name":"What small businesses want in 2020/21","Link":"/news-insights/research-reports-white-papers/what-small-businesses-want-in-202021/","Keywords":"small business research global state of pay","Description":"For the past seven years, Vocalink, a Mastercard company, has conducted research into UK people’s pa","Score":100},{"Name":"ISO 20022 message standards","Link":"/news-insights/research-reports-white-papers/iso-20022-message-standards/","Keywords":"ISO 20022, message, data standards","Description":"Payment systems and schemes around the world are migrating to ISO 20022 message standards as part of","Score":100},{"Name":"Events","Link":"/news-insights/events/","Keywords":"events","Description":" ","Score":100},{"Name":"Financial inclusion","Link":"/news-insights/financial-inclusion/","Keywords":"financial inclusion","Description":" ","Score":100},{"Name":"Stories","Link":"/news-insights/stories/","Keywords":"stories, news, media, research, announcements, thought leadership, podcasts, videos, real-time payments, instant payments, financial crime, open banking, UK payments","Description":" ","Score":100},{"Name":"Frictionless future of payments","Link":"/news-insights/frictionless-future-of-payments/","Keywords":"Frictionless future","Description":" ","Score":100},{"Name":"Case study: Thailand PromptPay","Link":"/news-insights/case-studies/case-study-thailand-promptpay/","Keywords":"promptpay, thailand, financial inclusion, case study, fast, real time, real-time","Description":" ","Score":100},{"Name":"Case study: UK Faster Payments","Link":"/news-insights/case-studies/case-study-uk-faster-payments/","Keywords":"case study, case study, fast, real time, real-time, UK, Faster Payments","Description":" ","Score":100},{"Name":"Case study: US RTP","Link":"/news-insights/case-studies/case-study-us-rtp/","Keywords":"The Clearing House, US, USA, case study, fast, real time, real-time","Description":" ","Score":100},{"Name":"Case study: Singapore FAST","Link":"/news-insights/case-studies/case-study-singapore-fast/","Keywords":"case study, case study, fast, real time, real-time, Singapore","Description":" ","Score":100},{"Name":"Case study: UK Bacs","Link":"/news-insights/case-studies/case-study-uk-bacs/","Keywords":"Bacs","Description":" ","Score":100},{"Name":"Privacy policy","Link":"/about/privacy-policy/","Keywords":"privacy policy","Description":" ","Score":100},{"Name":"Contact us","Link":"/contact-us/","Keywords":"contact us","Description":"Have a question about our product or services? Or want to speak to someone about partnership opportu","Score":100},{"Name":"Payment processing","Link":"/payment-processing/","Keywords":"instant payments, immediate payments, real-time payments, faster payments, mobile payments, retail payments, proxy, bank account, pay by account, pay by bank app, bill payments, billers, batch payments, bulk payments","Description":" ","Score":90},{"Name":"UK connectivity","Link":"/uk-connectivity/","Keywords":"Faster Payments, Bacs, ICS, cheque, check, real-time payments, PayPort, UK payments, card payments, ATMs, gateway, card transactions, request to pay, pay.uk, connect,","Description":" ","Score":90},{"Name":"PayPort","Link":"/uk-connectivity/access-solutions/payport/","Keywords":"PayPort, faster payments, connect, UK payments, real-time","Description":" ","Score":90},{"Name":"Services","Link":"/services/","Keywords":"financial crime, consulting, reports, analytics, money mules, MITS, real-time, AI, fraud, business, retail, account, name, verify, trace, prevent","Description":" ","Score":90},{"Name":"Reporting \u0026 analytics solutions","Link":"/services/reporting-analytics-solutions/","Keywords":"reporting, analytics, mastercard advisors ","Description":" ","Score":90},{"Name":"Customer Change Support","Link":"/tools/customer-change-support/","Keywords":"customer support, customer services, help, ccs, change","Description":" ","Score":90},{"Name":"Sort code checker","Link":"/tools/sort-code-checker/","Keywords":"sort code finder, sort codes","Description":"With Vocalink\u0027s sort code checker, you can search for sort codes and validate them to ensure you alw","Score":90},{"Name":"EISCD terms and conditions","Link":"/tools/extended-industry-sort-code-directory/eiscd-terms-and-conditions/","Keywords":"EISCD, ISCD, terms and conditions, sort code, extended industry sort code directory","Description":" ","Score":90},{"Name":"Register for the EISCD","Link":"/tools/extended-industry-sort-code-directory/register-for-the-eiscd/","Keywords":"EISCD, extended industry sort code directory","Description":" ","Score":90},{"Name":"Modulus checking","Link":"/tools/modulus-checking/","Keywords":"modulus checking, Bacs, direct credit, direct debit","Description":"Modulus checking allows payment originators to confirm that customer codes and account numbers are c","Score":90},{"Name":"Management information","Link":"/tools/management-information/","Keywords":"management information","Description":" ","Score":90},{"Name":"Research, reports \u0026 white papers","Link":"/news-insights/research-reports-white-papers/","Keywords":"downloads, media, research, reports, white papers, UK payments, real-time payments, financial crime, instant payments","Description":" ","Score":90},{"Name":"Inclusive access","Link":"/news-insights/stories/inclusive-access/","Keywords":"inclusive access","Description":" ","Score":90},{"Name":"Combatting financial crime","Link":"/news-insights/stories/combatting-financial-crime/","Keywords":"financial crime solutions","Description":" ","Score":90},{"Name":"Frictionless future podcasts","Link":"/news-insights/stories/frictionless-future-podcasts/","Keywords":"Frictionless future podcasts, stories from the frictionless future","Description":" ","Score":90},{"Name":"Frictionless real-time payments","Link":"/news-insights/stories/frictionless-real-time-payments/","Keywords":"frictionless future real-time payments, real time infographic, IPS infographic ","Description":" ","Score":90},{"Name":"Technology Provider of the Year","Link":"/news-insights/stories/technology-provider-of-the-year/","Keywords":"Vocalink wins Technology Provider of the Year","Description":" ","Score":90},{"Name":"PromptPay podcast","Link":"/news-insights/stories/promptpay-podcast/","Keywords":"PromptPay, thailand case study, Transforming Thailand to a digital economy","Description":" ","Score":90},{"Name":"Our Digital Future","Link":"/news-insights/stories/our-digital-future/","Keywords":"digital future","Description":" ","Score":90},{"Name":"Q4 2019 Open Banking tracker","Link":"/news-insights/stories/q4-2019-open-banking-tracker/","Keywords":"open banking, tracker","Description":" ","Score":90},{"Name":"Liquidity management podcast","Link":"/news-insights/stories/liquidity-management-podcast/","Keywords":"just-in-time liquidity, liquidity management","Description":" ","Score":90},{"Name":"Q1 2020 Open Banking tracker","Link":"/news-insights/stories/q1-2020-open-banking-tracker/","Keywords":"open banking, tracker, konsentus","Description":" ","Score":90},{"Name":"Evolution of open banking","Link":"/news-insights/stories/evolution-of-open-banking/","Keywords":"open banking, EPA, Tony Craddock","Description":" ","Score":90},{"Name":"Paying other people","Link":"/news-insights/stories/paying-other-people/","Keywords":"Paying other people, P2P, coronavirus ","Description":" ","Score":90},{"Name":"Q2 2020 Open Banking tracker","Link":"/news-insights/stories/q2-2020-open-banking-tracker/","Keywords":"open banking, tracker, konsentus, q2","Description":" ","Score":90},{"Name":"Request to pay: giving people flexibility and control","Link":"/news-insights/stories/request-to-pay-giving-people-flexibility-and-control/","Keywords":"Request to Pay Solution, service","Description":" ","Score":90},{"Name":"cross-border payments more reliable","Link":"/news-insights/stories/cross-border-payments-more-reliable/","Keywords":"Cross-border payments, international, remittances, global gig, migrant workers","Description":" ","Score":90},{"Name":"Real-time payments market continues to mature","Link":"/news-insights/stories/real-time-payments-market-continues-to-mature/","Keywords":"real-time payments, instant payments","Description":" ","Score":90},{"Name":"QR enabling digital acceptance in Pakistan","Link":"/news-insights/stories/qr-enabling-digital-acceptance-in-pakistan/","Keywords":"QR code, digital acceptance, micro merchant, Pakistan","Description":" ","Score":90},{"Name":"Beyond speed: the value of data","Link":"/news-insights/stories/beyond-speed-the-value-of-data/","Keywords":"TCH, The Clearing House, ISO 20022, real-time payments, beyond speed, data standards","Description":" ","Score":90},{"Name":"Q3 2020 Open Banking tracker","Link":"/news-insights/stories/q3-2020-open-banking-tracker/","Keywords":"open banking, tracker, konsentus, q2","Description":" ","Score":90},{"Name":"Open banking catalysed","Link":"/news-insights/stories/open-banking-catalysed/","Keywords":"open banking, state of pay, sharing","Description":" ","Score":90},{"Name":"Why access to cash must endure","Link":"/news-insights/stories/why-access-to-cash-must-endure/","Keywords":"Paying other people, P2P, coronavirus ","Description":" ","Score":90},{"Name":"Celebrating 50 years of Direct Debit","Link":"/news-insights/stories/celebrating-50-years-of-direct-debit/","Keywords":"Bacs Direct Debit; batch payments","Description":" ","Score":90},{"Name":"quash financial crime","Link":"/news-insights/stories/quash-financial-crime/","Keywords":"financial crime, fraud, money laundering","Description":" ","Score":90},{"Name":"Regionalisation of real-time payments","Link":"/news-insights/stories/regionalisation-of-real-time-payments/","Keywords":"real-time payments, regionalisation, regionalism","Description":" ","Score":90},{"Name":"Q4 2020 Open Banking tracker","Link":"/news-insights/stories/q4-2020-open-banking-tracker/","Keywords":"open banking, tracker, konsentus, q4","Description":" ","Score":90},{"Name":"successful central infrastructures","Link":"/news-insights/stories/successful-central-infrastructures/","Keywords":"real-time payments, central infrastructures, payment system operators, instant payments, george evers","Description":" ","Score":90},{"Name":"UK state of pay","Link":"/news-insights/uk-state-of-pay/","Keywords":"UK, payments, research, state of pay, business, small business","Description":" ","Score":90},{"Name":"Case studies","Link":"/news-insights/case-studies/","Keywords":"case studies, research, UK, US, Thailand, Singapore, Sweden, Faster Payments, FAST, Bankgirot, PromptPay, RTP, Post office, Paym, mobile payments, instant payments","Description":" ","Score":90},{"Name":"About","Link":"/about/","Keywords":"about, about Vocalink, Vocalink","Description":" ","Score":90},{"Name":"Being a responsible company","Link":"/about/being-a-responsible-company/","Keywords":"responsible business","Description":" ","Score":90},{"Name":"Careers","Link":"/about/careers/","Keywords":"careers, vocalink careers, jobs, vacancies, opportunities, mastercard careers, placement, student, diversity, inclusion","Description":" ","Score":90},{"Name":"About Vocalink","Link":"/about/about-vocalink/","Keywords":"About us, about, Vocalink, Faster Payments, Bacs, LINK, ICS, account switch, ","Description":" ","Score":90},{"Name":"Request to Pay Solution factsheet","Link":"/uk-connectivity/request-to-pay-solution/request-to-pay-solution-factsheet/","Keywords":"Request to pay, factsheet","Description":"\r\n\r\n\r\nMastercard’s Request to Pay Solution is a secure messaging service that allows billers to requ","Score":80},{"Name":"Prevent business payment fraud brochure","Link":"/services/financial-crime-solutions/prevent-business-payment-fraud-brochure/","Keywords":"prevent business payment fraud","Description":"\r\n\r\n\r\nMastercard’s solution to prevent business payment fraud identifies and flags instances of BEC,","Score":80},{"Name":"Prevent business payment fraud factsheet","Link":"/services/financial-crime-solutions/prevent-business-payment-fraud-factsheet/","Keywords":"prevent business payment fraud","Description":"\r\n\r\n\r\nMastercard’s solution to prevent business payment fraud identifies and flags instances of BEC,","Score":80},{"Name":"Prevent money mule activity factsheet","Link":"/services/financial-crime-solutions/prevent-money-mule-activity-factsheet/","Keywords":"Prevent money mule activity","Description":"\r\n\r\n\r\nMastercard’s solution to prevent money mule activity identifies and flags previously hidden mu","Score":80},{"Name":"Prevent retail payment fraud factsheet","Link":"/services/financial-crime-solutions/prevent-retail-payment-fraud-factsheet/","Keywords":"Prevent retail payment fraud","Description":"\r\n\r\n\r\nMastercard’s solution to prevent retail payment fraud identifies and flags instances of author","Score":80},{"Name":"Tools","Link":"/tools/","Keywords":"customer support, tools, UK payments","Description":" ","Score":80},{"Name":"CCS Form","Link":"/tools/customer-change-support/ccs-form/","Keywords":"CSS form","Description":"\r\n","Score":80},{"Name":"EISCD technical specifications","Link":"/tools/extended-industry-sort-code-directory/eiscd-technical-specifications/","Keywords":"EISCD, ISCD, technical specifications, extended industry sort code directory, sort codes","Description":" ","Score":80},{"Name":"EISCD FAQs","Link":"/tools/extended-industry-sort-code-directory/eiscd-faqs/","Keywords":"EISCD, ISCD, sort codes, extended industry sort code directory, FAQs","Description":" ","Score":80},{"Name":"The economic impact of real-time payments","Link":"/news-insights/research-reports-white-papers/the-economic-impact-of-real-time-payments/","Keywords":"real time, real-time, economy","Description":"The economic impact of real-time payments is a report by Deloitte, which highlights the economic ben","Score":80},{"Name":"Delivering on the promises of Open Banking","Link":"/news-insights/research-reports-white-papers/delivering-on-the-promises-of-open-banking/","Keywords":"Open banking","Description":"Open Banking has the potential to transform not only how banks operate, but how and even why consume","Score":80},{"Name":"The move to a digital payments environment","Link":"/news-insights/research-reports-white-papers/the-move-to-a-digital-payments-environment/","Keywords":"Germany, digital payments","Description":"Whilst cash remains king in Germany, the move to digital payments has started and provides banks wit","Score":80},{"Name":"The future of ATMs in a world beyond cash","Link":"/news-insights/research-reports-white-papers/the-future-of-atms-in-a-world-beyond-cash/","Keywords":"ATMs, ATM, cash","Description":"The advent of alternative payment mechanisms such as contactless, digital wallets and mobile proxy s","Score":80},{"Name":"Financial inclusion accelerated","Link":"/news-insights/research-reports-white-papers/financial-inclusion-accelerated/","Keywords":"financial inclusion, promptpay, Thailand, India, real-time payments, real-time","Description":"This report focuses on the power of real-time payments to support financial inclusion. It draws on e","Score":80},{"Name":"Young Peruvians and their money","Link":"/news-insights/research-reports-white-papers/young-peruvians-and-their-money/","Keywords":"Peru, real-time payments, real-time, research, Latin America","Description":"This first report in our series on attitudes to payments and technology in Latin America reveals tha","Score":80},{"Name":"Young Argentinians and their money","Link":"/news-insights/research-reports-white-papers/young-argentinians-and-their-money/","Keywords":"Argentina, real-time payments, real-time, research, Latin America","Description":"As developers of technologies and infrastructures that are deeply woven into people lives, we keep o","Score":80},{"Name":"Young Brazilians and their money","Link":"/news-insights/research-reports-white-papers/young-brazilians-and-their-money/","Keywords":"Brazil, real-time payments, real-time, research, Latin America","Description":"Our research among young Brazilians shows that cash, while still important, has been supplanted by c","Score":80},{"Name":"Young Chileans and their money","Link":"/news-insights/research-reports-white-papers/young-chileans-and-their-money/","Keywords":"Chile, real-time payments, real-time, research, Latin America","Description":"As developers of technologies and infrastructures that are deeply woven into people lives, we keep o","Score":80},{"Name":"One platform, limitless choice","Link":"/news-insights/research-reports-white-papers/one-platform-limitless-choice/","Keywords":"Real-time, instant, payments","Description":"With the near simultaneous launch of immediate payments(also known as instant and real-time payments","Score":80},{"Name":"Business fraud report: global","Link":"/news-insights/research-reports-white-papers/business-fraud-report-global/","Keywords":"business fraud, fraud, financial crime","Description":"Our annual business fraud report is considered the definitive account of payments-related fraud in b","Score":80},{"Name":"Business fraud report: US","Link":"/news-insights/research-reports-white-papers/business-fraud-report-us/","Keywords":"business fraud, fraud, financial crime","Description":"Our annual business fraud report is considered the definitive account of payments-related fraud in b","Score":80},{"Name":"Business fraud report: UK","Link":"/news-insights/research-reports-white-papers/business-fraud-report-uk/","Keywords":"business fraud, fraud, financial crime","Description":"Our annual business fraud report is considered the definitive account of payments-related fraud in b","Score":80},{"Name":"Business fraud report: Australia","Link":"/news-insights/research-reports-white-papers/business-fraud-report-australia/","Keywords":"business fraud, fraud, financial crime","Description":"Our annual business report is considered the definitive account of payments-related fraud in both th","Score":80},{"Name":"Los jovenes peruanos y su dinero","Link":"/news-insights/research-reports-white-papers/los-jovenes-peruanos-y-su-dinero/","Keywords":"Peru, real-time payments, real-time, research, Latin America","Description":"Como desarrolladores de tecnologías e infraestructuras integradas en las vidas de las personas, quer","Score":80},{"Name":"Relacao dos jovens peruanos com o dinheiro","Link":"/news-insights/research-reports-white-papers/relacao-dos-jovens-peruanos-com-o-dinheiro/","Keywords":"Peru, real-time payments, real-time, research, Latin America","Description":"Ao desenvolvermos tecnologias e infraestruturas que estão tão profundamente conectadas com as vidas ","Score":80},{"Name":"The state of pay 2019","Link":"/news-insights/research-reports-white-papers/the-state-of-pay-2019/","Keywords":"UK, The state of pay 2019","Description":"Vocalink began researching consumer attitudes and behaviours to payments and payment technologies in","Score":80},{"Name":"Young Colombians and their money","Link":"/news-insights/research-reports-white-papers/young-colombians-and-their-money/","Keywords":"Colombia, real-time payments, real-time, research, Latin America","Description":"Like their counterparts in other markets that we have researched, young Colombians increasingly mana","Score":80},{"Name":"Welcome to the frictionless future","Link":"/news-insights/stories/welcome-to-the-frictionless-future/","Keywords":"frictionless future","Description":" ","Score":80},{"Name":"Next era of inclusion","Link":"/news-insights/stories/next-era-of-inclusion/","Keywords":"next era of inclusion, inclusion, contactless, state of pay, UK, chip, pin, research, cash, cheques","Description":" ","Score":80},{"Name":"60 years of Bankgirot","Link":"/news-insights/stories/60-years-of-bankgirot/","Keywords":"Bankgirot, sweden","Description":" ","Score":80},{"Name":"Collaborating to combat opportunist fraudsters","Link":"/news-insights/stories/collaborating-to-combat-opportunist-fraudsters/","Keywords":"financial crime, TSB, Confirmation of Payee, authorised push payment fraud, misdirected payments, APP fraud, CEO fraud, BEC fraud, security, name matching","Description":" ","Score":80},{"Name":"The global gig economy","Link":"/news-insights/the-global-gig-economy/","Keywords":"gig, economy, real-time, payments, merchants, gig workers, ride share, uber, Lyft, small business, Mastercard Send, Send","Description":" ","Score":80},{"Name":"Dependable services","Link":"/news-insights/dependable-services/","Keywords":"dependable services, real-time payments, dependability","Description":" ","Score":80},{"Name":"My Account","Link":"/tools/extended-industry-sort-code-directory/my-account/","Keywords":"EISCD, ISCD, sort codes, extended industry sort code directory","Description":" ","Score":70},{"Name":"Fueling the global gig economy","Link":"/news-insights/research-reports-white-papers/fueling-the-global-gig-economy/","Keywords":"gig workers, economy, real-time, cards, disbursements, ","Description":"The global gig economy is experiencing exponential growth as technology and changing human behaviour","Score":70},{"Name":"The power of proxy","Link":"/news-insights/stories/the-power-of-proxy/","Keywords":"proxy, multi proxy, mobile payments","Description":" ","Score":70},{"Name":"Mark Barnett perspectives","Link":"/news-insights/stories/mark-barnett-perspectives/","Keywords":"UK, Ireland, Nordics, payments, chip \u0026 PIN, contactless, real-time","Description":" ","Score":70},{"Name":"US bill payments","Link":"/news-insights/stories/us-bill-payments/","Keywords":"US, USA, bill pay, bill payments, paying bills","Description":" ","Score":70},{"Name":"Powering small business","Link":"/news-insights/stories/powering-small-business/","Keywords":"US, USA, bill pay, bill payments, paying bills","Description":" ","Score":70},{"Name":"The Different Times","Link":"/news-insights/research-reports-white-papers/the-different-times/","Keywords":"The Different Times, news, newspaper","Description":"\r\nTo help you stay abreast of the latest news and opinion from Mastercard and its partners we\u0027ve pub","Score":60},{"Name":"Sort code checker Ts \u0026 Cs","Link":"/tools/sort-code-checker-ts-cs/","Keywords":"sort code checker, sort code finder, sort codes","Description":" ","Score":50},{"Name":"Vocalink and LINK extend partnership until 2031","Link":"/news-insights/newsroom/vocalink-and-link-extend-partnership-until-2031/","Keywords":"LINK, UK payments, ATMs","Description":" ","Score":50},{"Name":"TSB and Vocalink join forces to protect people against falling victim to payment fraud","Link":"/news-insights/newsroom/tsb-and-vocalink-join-forces-to-protect-people-against-falling-victim-to-payment-fraud/","Keywords":"TSB, fraud, analytics, UK","Description":" ","Score":50},{"Name":"Mastercard to offer new \u0027Request to Pay\u0027 bill pay in the UK","Link":"/news-insights/newsroom/mastercard-to-offer-new-request-to-pay-bill-pay-in-the-uk/","Keywords":"bill pay, request to pay, UK","Description":" ","Score":50},{"Name":"2019 marks the tipping point for digital challenger banks","Link":"/news-insights/newsroom/2019-marks-the-tipping-point-for-digital-challenger-banks/","Keywords":"UK, research, challenger banks, digital banks, fintechs, state of pay","Description":" ","Score":50},{"Name":"Gregor Dobbie appointed as CEO of Vocalink","Link":"/news-insights/newsroom/gregor-dobbie-appointed-as-ceo-of-vocalink/","Keywords":"Gregor Dobbie, CEO","Description":" ","Score":50},{"Name":"Bancnet enhances InstaPay with Vocalink technology","Link":"/news-insights/newsroom/bancnet-enhances-instapay-with-vocalink-technology/","Keywords":"Bancnet, InstaPay","Description":" ","Score":50},{"Name":"Vocalink and Saudi Payments to introduce real-time payments to Saudi Arabia","Link":"/news-insights/newsroom/vocalink-and-saudi-payments-to-introduce-real-time-payments-to-saudi-arabia/","Keywords":"Saudi Arabia, real-time, Saudi Payments, IPS","Description":" ","Score":50},{"Name":"Paul Stoddart named president of New Payment Platforms","Link":"/news-insights/newsroom/paul-stoddart-named-president-of-new-payment-platforms/","Keywords":"Paul Stoddart, New Payment Platforms, president","Description":" ","Score":50},{"Name":"Vocalink and CCE sign trailblazing payments deal nationally in Peru","Link":"/news-insights/newsroom/vocalink-and-cce-sign-trailblazing-payments-deal-nationally-in-peru/","Keywords":"CCE, Peru, real-time payments, IPS","Description":" ","Score":50},{"Name":"Covid-19 support payments Pay.UK","Link":"/news-insights/newsroom/covid-19-support-payments-payuk/","Keywords":"COVID, Pay.UK, UK payments","Description":" ","Score":50},{"Name":"Mastercard enrolled into Pay.UK Request to Pay framework and announces first customer for its service","Link":"/news-insights/newsroom/mastercard-enrolled-into-payuk-request-to-pay-framework-and-announces-first-customer-for-its-service/","Keywords":"Request to pay, UK payments","Description":" ","Score":50},{"Name":"Leading firms collaborate with Mastercard to further secure open banking ecosystem","Link":"/news-insights/newsroom/leading-firms-collaborate-with-mastercard-to-further-secure-open-banking-ecosystem/","Keywords":"COVID, Pay.UK, UK payments","Description":" ","Score":50}];
+        </script>
+
+        <!-- OneTrust Cookies Settings button start -->
+    <button id="ot-sdk-btn" class="ot-sdk-show-settings">Manage Cookies</button>
+    <script type="text/plain" class="optanon-category-C010">
+        var _elqQ = _elqQ || [];
+        _elqQ.push(["elqSetSiteId","618725820"]);
+        _elqQ.push(['elqTrackPageView']);
+    </script>
+    <script type="text/plain" class="optanon-category-C006">
+        function whenAvailable(name, callback) {
+            var interval = 10; //ms
+            window.setTimeout(function () {
+                if (window[name]) {
+                    callback(window[name]);
+                } else {
+                    window.setTimeout(arguments.callee, interval);
+                }
+            }, interval);
+        }
+
+        whenAvailable("_satellite", function (t) {
+            _satellite.pageBottom();
+        });
+    </script>
+
+
+        <script type="text/javascript" src="/scripts/StateControl.js?v=11"></script>
+        <script type="text/javascript" src="/scripts/slick/slick.min.js"></script>
+        <script type="text/javascript" src="/scripts/jquery.validate.min.js?v=11"></script>
+
+    <script type="text/javascript" src="/scripts/ProductGrid.js"></script>
+<script type="text/javascript" src="/scripts/WebsiteTools.js?v=2"></script>
+<script type="text/javascript" src="/scripts/VideoOverlay.js?v=1"></script>
+</body>
+</html>
