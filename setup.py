@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 def get_long_description():
-    with open("./readme.md", "r") as fh:
+    with open("./README.md", "r") as fh:
         return fh.read()
 
 
