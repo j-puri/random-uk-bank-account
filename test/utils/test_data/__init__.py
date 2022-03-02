@@ -9,6 +9,7 @@ class TestFiles:
     VOCALINK_SCSUBTAB = 'vocalink_1517_scsubtab.txt'
     VOCALINK_NOT_FOUND = 'vocalink_not_valid.txt'
     TOOLS_MODULUS_CHECKING_HTML = 'tools-modulus-checking-web.html'
+    TOOLS_MODULUS_CHECKING_HTML_WITH_BAD_HTML_TAGS = 'tools-modulus-checking-web-bad-tags.html'
     VOCALINK_VALACDOS_INFERRED_VERSION_1 = 'vocalink_inferred_version_1_valacdos.txt'
     VOCALINK_SCSUBTAB_INFERRED_VERSION_2 = 'vocalink_inferred_version_2_scsubtab.txt'
 

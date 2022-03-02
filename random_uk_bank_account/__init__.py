@@ -50,7 +50,8 @@ class GenerateUkBankAccount:
                 vocalink_substitution_version=vocalink_substitution_version, recreate_vocalink_db=recreate_vocalink_db
             )
         except _IncompatibleVocalinkVersion as e:
-            inferred_vocalink_rules_version, inferred_vocalink_substitution_version = get_inferred_latest_versions()
+            inferred_vocalink_rules_version, inferred_vocalink_substitution_version = \
+                get_inferred_latest_versions(self._logger)
             self._logger.debug(
                 f"Unable to load data for current Vocalink config: "
                 f"Rules: {vocalink_rules_version} and Sort Code Sub {vocalink_substitution_version}. "

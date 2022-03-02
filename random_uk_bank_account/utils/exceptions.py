@@ -18,6 +18,7 @@ class IncompatibleVocalinkVersion(Exception):
 
 
 class ErrorInferringVocalinkVersions(Exception):
-    def __init__(self, e):
+    def __init__(self, logger, e):
+        logger.warning(f"Unable to parse and extract latest versions from Vocalink: Exception: {e}. Please update config.")
         super().__init__(
-            f"Unable to parse and extract latest versions from Vocalink: {e}")
+            f"Unable to parse and extract latest versions from Vocalink. Please update config.")

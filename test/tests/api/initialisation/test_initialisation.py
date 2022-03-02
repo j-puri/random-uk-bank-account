@@ -6,9 +6,9 @@ import os
 import pytest
 import pathlib
 
-from random_uk_bank_account.utils.exceptions import IncompatibleVocalinkVersion
+from random_uk_bank_account.utils.exceptions import IncompatibleVocalinkVersion, ErrorInferringVocalinkVersions
 from test.utils.test_data import read_file, TestFiles, INFERRED_VALACDOS_VERSION, INFERRED_SCSUBTAB_VERSION
-from test.utils.test_fixtures.vocalink_stubs import vocalink_standard_stubs
+from test.utils.test_fixtures.vocalink_stubs import vocalink_standard_stubs, vocalink_html_stubs
 
 
 def test_vocalink_init_with_specific_cache_location(vocalink_standard_stubs, tmp_path):
@@ -41,7 +41,8 @@ def test_vocalink_init_with_specified_valid_version(requests_mock, vocalink_stan
     assert len(folder_contents) == 1
 
 
-def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, tmp_path):
+def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, vocalink_html_stubs,
+                                                      tmp_path):
     """
     Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
     if current config results in 404's from Vocalink
@@ -65,7 +66,8 @@ def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_st
     assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
 
 
-def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, tmp_path):
+def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, vocalink_html_stubs,
+                                                         tmp_path):
     """
     Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
     if current config results in 404's from Vocalink
@@ -87,6 +89,28 @@ def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink
 
     assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
     assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
+
+
+def test_vocalink_init_throws_exception_if_inferred_versions_cannot_be_found(requests_mock, vocalink_standard_stubs,
+                                                                             tmp_path):
+    version = "1111/scsubtab"
+
+    requests_mock.get(
+        f"{VOCALINK_URL}/media/{version}.txt",
+        text=read_file(TestFiles.VOCALINK_NOT_FOUND)
+    )
+    requests_mock.get(
+        f"{VOCALINK_URL}/tools/modulus-checking",
+        text=read_file(TestFiles.TOOLS_MODULUS_CHECKING_HTML_WITH_BAD_HTML_TAGS)
+    )
+
+    with pytest.raises(ErrorInferringVocalinkVersions):
+        GenerateUkBankAccount(
+            log_level=logging.DEBUG,
+            recreate_vocalink_db=True,
+            cache_location=str(tmp_path),
+            vocalink_substitution_version=version
+        )
 
 
 def test_vocalink_init_with_recreate_true(vocalink_standard_stubs, tmp_path):

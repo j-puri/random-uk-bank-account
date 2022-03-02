@@ -14,6 +14,9 @@ def vocalink_standard_stubs(requests_mock):
         f"{VOCALINK_URL}/media/{DEFAULT_SORT_CODE_SUBSTITUTION_VERSION_PATH}.txt",
         text=read_file(TestFiles.VOCALINK_SCSUBTAB)
     )
+
+@pytest.fixture()
+def vocalink_html_stubs(requests_mock):
     requests_mock.get(
         f"{VOCALINK_URL}/tools/modulus-checking",
         text=read_file(TestFiles.TOOLS_MODULUS_CHECKING_HTML)
