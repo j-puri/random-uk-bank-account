@@ -41,7 +41,7 @@ def test_vocalink_init_with_specified_valid_version(requests_mock, vocalink_stan
     assert len(folder_contents) == 1
 
 
-def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, tmp_path, caplog):
+def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, tmp_path):
     """
     Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
     if current config results in 404's from Vocalink
@@ -64,12 +64,8 @@ def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_st
     assert generator.VOCALINK_VERSION == f"{INFERRED_VALACDOS_VERSION}/valacdos"
     assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
 
-    assert "Unable to load data for current Vocalink config: Rules: 1111/valacdos" \
-           " and Sort Code Sub 1517/scsubtab. Using the inferred latest versions: " \
-           "Rules: inferred_version_1/valacdos and Sort Code Sub inferred_version_2/scsubtab." in caplog.messages
 
-
-def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, tmp_path, caplog):
+def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, tmp_path):
     """
     Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
     if current config results in 404's from Vocalink
@@ -91,10 +87,6 @@ def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink
 
     assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
     assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
-
-    assert "Unable to load data for current Vocalink config: Rules: 4997/valacdos" \
-           " and Sort Code Sub 1111/scsubtab. Using the inferred latest versions: " \
-           "Rules: inferred_version_1/valacdos and Sort Code Sub inferred_version_2/scsubtab." in caplog.messages
 
 
 def test_vocalink_init_with_recreate_true(vocalink_standard_stubs, tmp_path):
