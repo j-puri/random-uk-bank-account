@@ -15,3 +15,9 @@ class IncompatibleVocalinkVersion(Exception):
     def __init__(self, version):
         super().__init__(
             f"Unable to load Vocalink data. Please check data is available from {version}.")
+
+
+class ErrorInferringVocalinkVersions(Exception):
+    def __init__(self, e):
+        super().__init__(
+            f"Unable to parse and extract latest versions from Vocalink: {e}")

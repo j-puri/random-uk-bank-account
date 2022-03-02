@@ -7,8 +7,9 @@ import pytest
 import pathlib
 
 from random_uk_bank_account.utils.exceptions import IncompatibleVocalinkVersion
-from test.utils.test_data import read_file, TestFiles
+from test.utils.test_data import read_file, TestFiles, INFERRED_VALACDOS_VERSION, INFERRED_SCSUBTAB_VERSION
 from test.utils.test_fixtures.vocalink_stubs import vocalink_standard_stubs
+
 
 def test_vocalink_init_with_specific_cache_location(vocalink_standard_stubs, tmp_path):
     GenerateUkBankAccount(
@@ -25,7 +26,7 @@ def test_vocalink_init_with_specified_valid_version(requests_mock, vocalink_stan
     version = "4941/valacdos"
 
     requests_mock.get(
-        f"{VOCALINK_URL}{version}.txt",
+        f"{VOCALINK_URL}/media/{version}.txt",
         text=read_file(TestFiles.VOCALINK_VALACDOS)
     )
 
@@ -40,38 +41,60 @@ def test_vocalink_init_with_specified_valid_version(requests_mock, vocalink_stan
     assert len(folder_contents) == 1
 
 
-def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, tmp_path):
+def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, tmp_path, caplog):
+    """
+    Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
+    if current config results in 404's from Vocalink
+    """
+
     version = "1111/valacdos"
 
     requests_mock.get(
-        f"{VOCALINK_URL}{version}.txt",
+        f"{VOCALINK_URL}/media/{version}.txt",
         text=read_file(TestFiles.VOCALINK_NOT_FOUND)
     )
 
-    with pytest.raises(IncompatibleVocalinkVersion):
-        GenerateUkBankAccount(
-            log_level=logging.DEBUG,
-            recreate_vocalink_db=True,
-            cache_location=tmp_path.name,
-            vocalink_rules_version=version
-        )
+    generator = GenerateUkBankAccount(
+        log_level=logging.DEBUG,
+        recreate_vocalink_db=True,
+        cache_location=tmp_path.name,
+        vocalink_rules_version=version
+    )
+
+    assert generator.VOCALINK_VERSION == f"{INFERRED_VALACDOS_VERSION}/valacdos"
+    assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
+
+    assert "Unable to load data for current Vocalink config: Rules: 1111/valacdos" \
+           " and Sort Code Sub 1517/scsubtab. Using the inferred latest versions: " \
+           "Rules: inferred_version_1/valacdos and Sort Code Sub inferred_version_2/scsubtab." in caplog.messages
 
 
-def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, tmp_path):
+def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, tmp_path, caplog):
+    """
+    Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
+    if current config results in 404's from Vocalink
+    """
+
     version = "1111/scsubtab"
 
     requests_mock.get(
-        f"{VOCALINK_URL}{version}.txt",
+        f"{VOCALINK_URL}/media/{version}.txt",
         text=read_file(TestFiles.VOCALINK_NOT_FOUND)
     )
 
-    with pytest.raises(IncompatibleVocalinkVersion):
-        GenerateUkBankAccount(
-            log_level=logging.DEBUG,
-            recreate_vocalink_db=True,
-            cache_location=str(tmp_path),
-            vocalink_substitution_version=version
-        )
+    generator = GenerateUkBankAccount(
+        log_level=logging.DEBUG,
+        recreate_vocalink_db=True,
+        cache_location=str(tmp_path),
+        vocalink_substitution_version=version
+    )
+
+    assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
+    assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
+
+    assert "Unable to load data for current Vocalink config: Rules: 4997/valacdos" \
+           " and Sort Code Sub 1111/scsubtab. Using the inferred latest versions: " \
+           "Rules: inferred_version_1/valacdos and Sort Code Sub inferred_version_2/scsubtab." in caplog.messages
 
 
 def test_vocalink_init_with_recreate_true(vocalink_standard_stubs, tmp_path):

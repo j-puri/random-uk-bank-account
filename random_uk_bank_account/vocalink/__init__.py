@@ -1,3 +1,4 @@
+from random_uk_bank_account.utils import config
 from random_uk_bank_account.vocalink.vocalink_data import get_vocalink_data, get_vocalink_substitutions
 from random_uk_bank_account.vocalink.vocalink_db_init import CreateVocalinkDb
 
@@ -12,6 +13,7 @@ def set_db_location(cache_location, version):
     db_file_location = f"{cache_location}{os.sep}{version.replace('/', '-')}.db"
 
     return cache_location, db_file_location
+
 
 def initialise(cache_location, version, sort_code_subs_version, recreate, logger=logging.getLogger()):
 

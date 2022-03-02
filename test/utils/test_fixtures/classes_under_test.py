@@ -12,11 +12,11 @@ from test.utils.test_data.vocalink_rules_objects.rule_collections import VOCALIN
 @pytest.fixture()
 def generator(requests_mock, tmp_path):
     requests_mock.get(
-        f"{VOCALINK_URL}{DEFAULT_VOCALINK_VERSION_PATH}.txt",
+        f"{VOCALINK_URL}/media/{DEFAULT_VOCALINK_VERSION_PATH}.txt",
         text=read_file(TestFiles.VOCALINK_VALACDOS)
     )
     requests_mock.get(
-        f"{VOCALINK_URL}{DEFAULT_SORT_CODE_SUBSTITUTION_VERSION_PATH}.txt",
+        f"{VOCALINK_URL}/media/{DEFAULT_SORT_CODE_SUBSTITUTION_VERSION_PATH}.txt",
         text=read_file(TestFiles.VOCALINK_SCSUBTAB)
     )
     return GenerateUkBankAccount(
