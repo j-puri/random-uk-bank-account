@@ -6,9 +6,10 @@ import os
 import pytest
 import pathlib
 
-from random_uk_bank_account.utils.exceptions import IncompatibleVocalinkVersion
-from test.utils.test_data import read_file, TestFiles
-from test.utils.test_fixtures.vocalink_stubs import vocalink_standard_stubs
+from random_uk_bank_account.utils.exceptions import IncompatibleVocalinkVersion, ErrorInferringVocalinkVersions
+from test.utils.test_data import read_file, TestFiles, INFERRED_VALACDOS_VERSION, INFERRED_SCSUBTAB_VERSION
+from test.utils.test_fixtures.vocalink_stubs import vocalink_standard_stubs, vocalink_html_stubs
+
 
 def test_vocalink_init_with_specific_cache_location(vocalink_standard_stubs, tmp_path):
     GenerateUkBankAccount(
@@ -25,7 +26,7 @@ def test_vocalink_init_with_specified_valid_version(requests_mock, vocalink_stan
     version = "4941/valacdos"
 
     requests_mock.get(
-        f"{VOCALINK_URL}{version}.txt",
+        f"{VOCALINK_URL}/media/{version}.txt",
         text=read_file(TestFiles.VOCALINK_VALACDOS)
     )
 
@@ -40,32 +41,70 @@ def test_vocalink_init_with_specified_valid_version(requests_mock, vocalink_stan
     assert len(folder_contents) == 1
 
 
-def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, tmp_path):
+def test_vocalink_init_with_specified_invalid_version(requests_mock, vocalink_standard_stubs, vocalink_html_stubs,
+                                                      tmp_path):
+    """
+    Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
+    if current config results in 404's from Vocalink
+    """
+
     version = "1111/valacdos"
 
     requests_mock.get(
-        f"{VOCALINK_URL}{version}.txt",
+        f"{VOCALINK_URL}/media/{version}.txt",
         text=read_file(TestFiles.VOCALINK_NOT_FOUND)
     )
 
-    with pytest.raises(IncompatibleVocalinkVersion):
-        GenerateUkBankAccount(
-            log_level=logging.DEBUG,
-            recreate_vocalink_db=True,
-            cache_location=tmp_path.name,
-            vocalink_rules_version=version
-        )
+    generator = GenerateUkBankAccount(
+        log_level=logging.DEBUG,
+        recreate_vocalink_db=True,
+        cache_location=tmp_path.name,
+        vocalink_rules_version=version
+    )
+
+    assert generator.VOCALINK_VERSION == f"{INFERRED_VALACDOS_VERSION}/valacdos"
+    assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
 
 
-def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, tmp_path):
+def test_vocalink_init_with_invalid_substitution_version(requests_mock, vocalink_standard_stubs, vocalink_html_stubs,
+                                                         tmp_path):
+    """
+    Generator attempts to parse html form https://www.vocalink.com/tools/modulus-checking/ to find current versions
+    if current config results in 404's from Vocalink
+    """
+
     version = "1111/scsubtab"
 
     requests_mock.get(
-        f"{VOCALINK_URL}{version}.txt",
+        f"{VOCALINK_URL}/media/{version}.txt",
         text=read_file(TestFiles.VOCALINK_NOT_FOUND)
     )
 
-    with pytest.raises(IncompatibleVocalinkVersion):
+    generator = GenerateUkBankAccount(
+        log_level=logging.DEBUG,
+        recreate_vocalink_db=True,
+        cache_location=str(tmp_path),
+        vocalink_substitution_version=version
+    )
+
+    assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
+    assert generator.VOCALINK_SUBSTITUTION_VERSION == f"{INFERRED_SCSUBTAB_VERSION}/scsubtab"
+
+
+def test_vocalink_init_throws_exception_if_inferred_versions_cannot_be_found(requests_mock, vocalink_standard_stubs,
+                                                                             tmp_path):
+    version = "1111/scsubtab"
+
+    requests_mock.get(
+        f"{VOCALINK_URL}/media/{version}.txt",
+        text=read_file(TestFiles.VOCALINK_NOT_FOUND)
+    )
+    requests_mock.get(
+        f"{VOCALINK_URL}/tools/modulus-checking",
+        text=read_file(TestFiles.TOOLS_MODULUS_CHECKING_HTML_WITH_BAD_HTML_TAGS)
+    )
+
+    with pytest.raises(ErrorInferringVocalinkVersions):
         GenerateUkBankAccount(
             log_level=logging.DEBUG,
             recreate_vocalink_db=True,

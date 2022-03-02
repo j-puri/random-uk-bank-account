@@ -122,7 +122,7 @@ GenerateUkBankAccount(cache_location='some/real/path')
 ```
 
 #### Vocalink Version
-The version of Vocalink is defaulted to values in config. These are retrievable via:
+The version of Vocalink is defaulted to values in [config](./random_uk_bank_account/utils/config.py). These are retrievable via:
 
 ```python
 GenerateUkBankAccount().VOCALINK_VERSION
@@ -144,7 +144,9 @@ GenerateUkBankAccount(
     vocalink_substitution_version='1517/scsubtab'
 )
 ```
-
+Vocalink source data is regularly removed from the Vocalink versions. If the versions
+specified in config no longer exist an attempt is made to get the latest versions through parsing
+Vocalink website HTML. 
 #### Tests
 Clone the repository and run:
 

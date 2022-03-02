@@ -8,10 +8,15 @@ class VocalinkApi(HttpSession):
         super().__init__()
 
     def get_vocalink_modulus_media(self, version) -> str:
-        data = self.session.get(url=f"{VOCALINK_URL}{version}.txt")
+        data = self.session.get(url=f"{VOCALINK_URL}/media/{version}.txt")
         data.raise_for_status()
 
         if "Sorry, we can't find that page" in data.text:
             raise IncompatibleVocalinkVersion(data.url)
 
+        return data.text
+
+    def get_vocalink_modulus_checking_page(self) -> str:
+        data = self.session.get(url=f"{VOCALINK_URL}/tools/modulus-checking")
+        data.raise_for_status()
         return data.text
